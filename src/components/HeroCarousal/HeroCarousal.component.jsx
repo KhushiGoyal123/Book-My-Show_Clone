@@ -20,7 +20,7 @@ const HeroCarousal = () => {
   }, []);
 
     const settingsLG = {
-        arrows:true, 
+        arrows:true,
         autoplay: true,
         centerMode:true,
         centerPadding: "300px",
@@ -47,7 +47,7 @@ const HeroCarousal = () => {
               <HeroSlider {...settings}>
                 {
                     images.map((image) => (
-                        <div className="w-full h-56 md:h-80 py-3">
+                        <div className="w-full h-90 md:h-80 py-3">
                             <img 
                             src={`https://image.tmdb.org/t/p/original${image.backdrop_path}`} 
                             alt="testing"
@@ -63,7 +63,7 @@ const HeroCarousal = () => {
               <HeroSlider {...settingsLG}>
                 {
                     images.map((image) => (
-                        <div className="w-full h-96 px-2 py-3">
+                        <div className="w-full h-100 px-2 py-3">
                             <img 
                             src={`https://image.tmdb.org/t/p/original${image.backdrop_path}`} 
                             alt="testing"

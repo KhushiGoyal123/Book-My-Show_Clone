@@ -44,12 +44,14 @@ const HomePage = () => {
     return (
         <>  
             <div className="flex flex-col gap-10">
-            <div className="container mx-auto px-4">
-              <h1 className="text-2xl font-bold text-gray-800 my-3">
-                  The best of Entertainment
-              </h1>
-              <EntertainmentCardSlider />
+              <div className="container mx-3 px-4 my-8">
+              <PosterSlider 
+                images={upcomingMovies} 
+                title="Latest & Trending" 
+                isDark={false}
+                />
             </div>
+
 
             <div className="bg-bms-800 py-12">
               <div className="container mx-auto px-4 flex flex-col gap-3">

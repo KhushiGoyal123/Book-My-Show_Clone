@@ -1,22 +1,22 @@
 const settings ={
     infinite: false,
     speed:500,
-    slidesToShow: 5,
-    slidesToScroll: 4,
+    slidesToShow: 8,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
     {
         breakpoints: 1024,
         settings: {
-            slidesToShow: 5,
-            slidesToScroll: 3,
+            slidesToShow: 8,
+            slidesToScroll: 2,
             infinite: true,
         },
     },
     {
         breakpoints: 768,
         settings: {
-            slidesToShow: 3,
+            slidesToShow: 5,
             slidesToScroll: 2,
             initialSlide: 2,
         },
@@ -24,7 +24,7 @@ const settings ={
     {
         breakpoints: 480,
         settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
         },
     },
